@@ -4,7 +4,7 @@ file=$1
 user=****
 password=****
 
-function add_sshkey()
+add_sshkey()
 {
     local ip=$1
     local result=0
